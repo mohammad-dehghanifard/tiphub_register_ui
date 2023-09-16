@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tiphub_register_ui/componnets/app_colors.dart';
-import 'package:tiphub_register_ui/componnets/app_thems.dart';
+import 'package:tiphub_register_ui/components/app_themes.dart';
 import 'package:tiphub_register_ui/ui/register_screen.dart';
 
 void main() {
@@ -14,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: AppThemes.light,
+      theme:  AppThemes.light,
       home: const RegisterScreen(),
     );
   }
